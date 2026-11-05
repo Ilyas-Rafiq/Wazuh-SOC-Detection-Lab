@@ -30,7 +30,7 @@ Automated a burst of failed logons against user `ilyas` using PowerShell:
 * Wazuh generated alerts for **Rule 60122** (`Logon Failure - Unknown user or bad password`).
 * The correlation engine escalated the repeated burst into a high-severity alert: **Rule 60115** (`User account locked out (multiple login errors)`).
 
-![Authentication Failure & Lockout](auth-lockout.png)
+![Authentication Failure & Lockout](auth-lockout.png.jpeg)
 
 ---
 
@@ -73,7 +73,7 @@ Wazuh's FIM module captured all three lifecycle events instantly:
 * **Rule 550 (Level 7):** `Integrity checksum changed.` (Detected hash mismatch after content alteration)
 * **Rule 553 (Level 7):** `File deleted.` (Tracked file removal from the protected directory)
 
-![File Integrity Monitoring Telemetry](fim-detection.png)
+![File Integrity Monitoring Telemetry](fim-detection.png.jpeg)
 
 ---
 
